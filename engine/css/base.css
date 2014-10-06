@@ -1,0 +1,76 @@
+body{
+  font-family: "open sans", sans-serif;
+  font-size: 12px;
+}
+.pure-g{
+  max-width: 1000px;
+  margin: 40px auto;
+}
+.pure-form{
+
+  padding: 0 10px;
+  border-radius: 4px;
+}
+  label.formTitle{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    display: none;
+  }
+  .pure-form input,
+  .pure-form input[type="text"]{
+    padding: 15px;
+    width: 100%;
+  }
+  input[type="submit"]{
+    width: 100%;
+    background: #6681B2;
+    border-radius: 2px;
+    color: white;
+    border: 1px solid #485E86;
+  }
+  input[type="submit"]:focus{
+    background: #6681B2;
+    border-radius: 2px;
+    color: white;
+    border: 1px solid #485E86;
+  }
+
+.movie{
+  position:relative;
+  list-style:none;
+
+  margin: 0 0 10px 0;
+  background: #C27070;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  border-radius: 4px;
+  transition: all .2s;
+}
+#movieNothing{
+  background: #EEE;
+  color: #3A3636;
+}
+.movie p{
+  text-transform: capitalize;
+}
+.remove:before{
+  display: inline-block;
+  font: normal normal normal 24px FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 7px;
+  font-size: 16px;
+  vertical-align: middle;
+  color: rgba(255,255,255,1);
+  content: "x";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-transform: lowercase;
+  cursor: pointer;
+}
